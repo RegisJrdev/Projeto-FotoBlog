@@ -127,14 +127,15 @@ main h1 {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
-    transition: all 1s ease-out;
+    transition: all 700ms ease-in-out;
+    transform: scale(1.4);
 
 
 }
 
 .items img:hover {
-    filter: hue-rotate(10deg) contrast(109%) saturate(200%);
-    transform: scale(1.1) rotate(3deg);
+    filter: hue-rotate(15deg) contrast(105%) saturate(100%);
+    transform: scale(1);
 }
 
 .tags {
